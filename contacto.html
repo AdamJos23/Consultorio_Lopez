@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(149, 241, 169, 0.753);
+            margin: 0px;
+        }
+        .formulario {
+            background-color: rgb(255, 255, 255);
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px #494646cc;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #b5c9b5;
+            border-radius: 10px;
+            font-size: 12px;
+            background-color: #f9fcfa;
+        }
+        h2 {
+            text-align: center;
+            color: #176b43;
+        }
+        label {
+            margin-top: 15px;
+            margin-bottom: 8px;
+            color: #176b43;
+            font-weight: bold;
+        }
+        textarea {
+            height: 120px;
+            resize: vertical;
+        }
+        button {
+            width: 100%;
+            background-color: #176b43;
+            color: #f9fcfa;
+            padding: 16px;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        nav {
+            background-color: rgb(10, 97, 39);
+            padding: 12px;
+            text-align: center;
+        }
+        nav a {
+            color: rgb(255, 255, 255);
+            background-color: rgb(17, 173, 43);
+            text-decoration: none;
+            padding: 12px 20px;
+            margin: 5px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: rgb(141, 199, 139);
+            color: rgb(5, 104, 46);
+        }
+        h1 {
+            text-align: center;
+            color: rgb(5, 104, 46);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="conocenos.html">Conoce más</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="listas.html">Precios de servicios</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="formulario">
+        <h2>Contactanos</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre">
+            <label for="correo">Correo electronico:</label>
+            <input type="email" id="correo" name="correo">
+            <label for="genero">Género:</label>
+            <select id="genero" name="genero">
+                <option value="">Seleccionar</option>
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+                <option value="no_especificar">Prefiero no decirlo</option>
+            </select>
+            <label for="edad">Edad:</label>
+            <select id="edad" name="edad">
+                             <option value="">Seleccionar edad</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+                <option>32</option>
+                <option>33</option>
+                <option>34</option>
+                <option>35</option>
+                <option>36</option>
+                <option>37</option>
+                <option>38</option>
+                <option>39</option>
+                <option>40</option>
+            </select>
+            <label for="comentario">Comentarios:</label>
+            <textarea id="comentario" name="comentario">Escribe aquí</textarea>
+            <button type="submit">Enviar comentario</button>
+        </form>
+    </div>
+</body>
+</html>

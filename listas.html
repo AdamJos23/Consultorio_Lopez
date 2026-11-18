@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(149, 241, 169, 0.753);
+            margin: 0px;
+        }
+        h1 {
+            text-align: center;
+            color: rgb(4, 78, 33);
+        }
+        h2 {
+            text-align: center;
+            color: black;
+        }
+        .contenedor {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1000px;
+            margin: 50px auto 0 auto;
+        }
+        .card {
+            background-color: rgb(159, 232, 250);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px;
+            transition: 0.3s;
+        }
+        .card img {
+            width: 60%;
+            height: 60%;
+            border-radius: 10px;
+        }
+        .card p {
+            color: black;
+            font-size: 12px;
+        }
+        nav {
+            background-color: rgb(10, 97, 39);
+            padding: 12px;
+            text-align: center;
+        }
+        nav a {
+            color: rgb(255, 255, 255);
+            background-color: rgb(17, 173, 43);
+            text-decoration: none;
+            padding: 12px 20px;
+            margin: 5px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: rgb(141, 199, 139);
+            color: rgb(5, 104, 46);
+        }
+        h1 {
+            text-align: center;
+            color: rgb(5, 104, 46);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="conocenos.html">Conoce más</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="listas.html">Precios de servicios</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="contenedor">
+        <div class="card">
+            <img src="img/consulta.jpg">
+            <h2>Consulta médica</h2>
+            <p>$200.00 Revisión clínica general para diagnosticar enfermedades y recetar tratamientos.</p>
+        </div>
+        <div class="card">
+            <img src="img/toma de signos.jpg">
+            <h2>Toma de signos Vitales</h2>
+            <p>$50.00 Medición rápida de presión arterial, frecuencia cardíaca, temperatura y oxigenación.</p>
+        </div>
+        <div class="card">
+            <img src="img/inyeccion.jpg">
+            <h2>Aplicación de Inyeccion</h2>
+            <p>$40.00-$50.00 Aplicación de medicamentos por vía intramuscular o intravenosa. El precio varía según la complejidad de la vía de aplicación o si se incluye la jeringa.</p>
+        </div>
+    </div>
+    <div class="contenedor">
+        <div class="card">
+            <img src="img/suero.webp">
+            <h2>Aplicación de Suero</h2>
+            <p>$800.00-$1500 Administración de vitaminas directamente a la vena. El costo cambia según el tipo de solución utilizada y medicamentos añadidos.</p>
+        </div>
+        <div class="card">
+            <img src="img/electrocardiograma.jpg">
+            <h2>Electrocardiograma</h2>
+            <p>$300.00 Registro gráfico de la actividad eléctrica del corazón para detectar anomalías cardíacas.</p>
+        </div>
+        <div class="card">
+            <img src="img/Enemas.png">
+            <h2>Aplicación de Enemas</h2>
+            <p>$40.00-$50.00 Introducción de líquido por vía rectal para limpiar el intestino y aliviar el estreñimiento severo.</p>
+        </div>
+    </div><div class="contenedor">
+        <div class="card">
+            <img src="img/aplicacion-sondas.jpg">
+            <h2>Aplicación de sondas</h2>
+            <p>$300.00 Colocación de un tubo flexible para drenar líquidos (como orina) o administrar nutrientes.</p>
+        </div>
+        <div class="card">
+            <img src="img/retiro-sondas.png">
+            <h2>Retiro de sondas</h2>
+            <p>$200.00 Extracción segura y limpia de una sonda previamente colocada.</p>
+        </div>
+        <div class="card">
+            <img src="img/implante.jpg">
+            <h2>Colocación y retiro de implantes</h2>
+            <p>$200.00 Inserción o extracción subdérmica de implantes médicos o anticonceptivos con anestesia local.</p>
+        </div>
+    </div><div class="contenedor">
+        <div class="card">
+            <img src="img/sutura.jpg">
+            <h2>Sutura</h2>
+            <p>$300.00-$700.00 Cierre de heridas mediante puntos quirúrgicos con anestesia local. El costo depende del tamaño, la profundidad de la herida y la cantidad de material de sutura necesario.</p>
+        </div>
+        <div class="card">
+            <img src="img/retiro-sutura.jpg">
+            <h2>Retiro de sutura</h2>
+            <p>$100.00-$200.00 Extracción indolora de los puntos una vez que la herida ha cicatrizado. El precio varía según la cantidad de puntos a retirar y si requiere curación adicional.</p>
+        </div>
+        <div class="card">
+            <img src="img/test.jpg">
+            <h2>Test de COVID/INFLUENZA</h2>
+            <p>$150.00  Prueba rápida mediante hisopado nasal para detectar infecciones respiratorias virales.</p>
+        </div>
+    </div>
+</body>
+</html>
